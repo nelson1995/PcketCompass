@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlashLight</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Appname">PocketCompass</string>
+    <string name="info_text">An android compass with a flashlight.</string>
+</resources>

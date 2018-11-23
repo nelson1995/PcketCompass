@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    tools:context="com.theedge.nelsongkatale.pocketcompass.PocketCompass">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/directionHeading"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        />
+    <ImageView
+        android:layout_width="550dp"
+        android:layout_height="220dp"
+        android:id="@+id/compassDial"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/dial"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/hands"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/hands"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="0dp"
+        />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:id="@+id/button"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:src="@drawable/lighton"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/compassDial"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>
