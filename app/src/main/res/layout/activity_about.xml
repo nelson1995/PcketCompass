@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="outsideOverlay"
+    android:clipToPadding="false"
+    android:fadingEdge="none"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorDark"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="230dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/about_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AboutDialog.Description"
+                android:text="@string/about_description"
+                android:layout_marginLeft="80dp"
+                />
+
+            <View
+                android:id="@+id/about_divider01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:layout_below="@id/about_description"
+                android:layout_marginBottom="@dimen/divider_vertical_margin"
+                android:layout_marginTop="@dimen/divider_vertical_margin"
+                android:background="@drawable/white_transparent_gradient" />
+
+            <TextView
+                android:id="@+id/about_version_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_divider01"
+                style="@style/AboutDialog.Description"
+                 />
+
+            <TextView
+                android:id="@+id/about_version_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/about_divider01"
+                style="@style/AboutDialog.Description" />
+
+
+            <TextView
+                android:id="@+id/about_homepage_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_version_text"
+                android:layout_marginLeft="40dp"
+                style="@style/AboutDialog.Description"
+                android:text="@string/about_twitter_link"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/about_version_text"
+                android:layout_marginRight="20dp"
+                android:autoLink="web"
+                style="@style/AboutDialog.Link"
+                android:text="@string/about_homepage_link" />
+
+            <TextView
+                style="@style/AboutDialog.Description"
+                android:id="@+id/about_author_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/about_homepage_text"
+                android:text="@string/author_name" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/about_homepage_text"
+                android:autoLink="web"
+                style="@style/AboutDialog.Description"
+                android:layout_marginRight="20dp"
+                android:text="@string/about_author_name"
+                android:layout_marginTop="20dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

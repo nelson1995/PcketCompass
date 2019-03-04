@@ -6,7 +6,10 @@
     android:background="@color/colorDark"
     tools:context="com.theedge.nelsongkatale.pocketcompass.PocketCompass">
 
-
+    <include
+        layout="@layout/settings_toolbar"
+        android:id="@+id/settings_toolbar"
+        />
     <TextView
         android:layout_width="150dp"
         android:layout_height="wrap_content"
@@ -25,7 +28,7 @@
         android:id="@+id/compassDial"
         android:background="@null"
         android:contentDescription="@null"
-        android:src="@drawable/dial"
+        android:src="@drawable/compassdarkmode"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="130dp"
@@ -34,14 +37,14 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
+        android:layout_height="150dp"
         android:id="@+id/hands"
         android:background="@null"
         android:contentDescription="@null"
         android:src="@drawable/hands"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="160dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="165dp"
         android:layout_marginBottom="0dp"
         />
 

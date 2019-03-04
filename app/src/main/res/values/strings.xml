@@ -1,7 +1,17 @@
 <resources>
-    <string name="app_name">FlashLight</string>
-
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Appname">PocketCompass</string>
+    <string name="appname">AndroCompass</string>
     <string name="info_text">An android compass with a flashlight.</string>
+    <string name="appwidget_text">AndroLight</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+    <!-- About dialog -->
+    <string name="about_author_name" translatable="false">Nelson G.K. </string>
+    <string name="author_name">Author Name </string>
+    <string name="about_twitter_link">Twitter  </string>
+    <string name="about_description">A simple compass  for Android™.</string>
+    <string name="about_homepage_link" translatable="false">twitter.com/Nelson_Guest_k</string>
+    <string name="about_version_text">Version:</string>
+
 </resources>

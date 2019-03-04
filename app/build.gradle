@@ -5,8 +5,8 @@ android {
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.theedge.nelsongkatale.pocketcompass"
-        minSdkVersion 19
-        targetSdkVersion 25
+        minSdkVersion 15
+        targetSdkVersion 15
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

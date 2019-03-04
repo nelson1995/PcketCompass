@@ -7,7 +7,28 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowFullscreen">true</item>
-
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- App Bar -->
+    <style name="AppBar">
+        <item name="android:background">@color/colorDark</item>
+    </style>
+
+    <!-- App Bar Text -->
+    <style name="AppBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    <!-- About Dialog: TextView Widgets -->
+    <style name="AboutDialog.Description" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <!-- About Dialog: Link(s) -->
+    <style name="AboutDialog.Link" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColorLink">@color/colorBlue</item>
+    </style>
+
 
 </resources>
